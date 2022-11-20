@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "cross-env-shell cp snippet/* $INIT_CWD/snippets"
   },
-  "keywords": [],
+  "keywords": ["Shopify", "Localization", "Snippets", "Languages", "Shop", "Multilang"],
   "author": "uzcateguijesusdev <[uzcateguijesusdev@gmail.com](mailto:uzcateguijesusdev@gmail.com)>",
   "license": "ISC",
   "dependencies": {
