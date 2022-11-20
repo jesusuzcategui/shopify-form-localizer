@@ -1,0 +1,55 @@
+:root {
+  --form-localizer-color: #2d2d2d;
+  --form-localizer-white: #ffffff;
+  --form-localizer-radius: 5px;
+  --form-localizer-spacing: 10px;
+}
+
+.disclosure__button {
+  border: none;
+  background-color: transparent;
+  color: var(--form-localizer-color);
+  cursor: pointer;
+}
+
+.disclosure__button svg {
+  width: 25px;
+  margin-right: var(--form-localizer-spacing);
+}
+
+.disclosure__list {
+  position: absolute;
+  z-index: 9;
+  padding: 10px 10px 15px;
+  background: white;
+  border-radius: 5px;
+  list-style: none;
+  opacity: 1;
+  transition: all ease 1s;
+}
+
+.disclosure__list[hidden="true"] {
+  opacity: 0;
+}
+
+.disclosure__item {
+  padding-left: var(--form-localizer-spacing);
+  margin-bottom: var(--form-localizer-spacing);
+}
+
+.disclosure__item a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+
+.disclosure__item a:hover {
+  text-decoration: none;
+}
+
+.disclosure__item a svg {
+  width: 25px;
+  margin-right: var(--form-localizer-spacing);
+}
+

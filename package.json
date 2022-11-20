@@ -1,0 +1,15 @@
+{
+  "name": "form-localizer",
+  "version": "0.0.10",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cross-env-shell cp snippet/* $INIT_CWD/snippets"
+  },
+  "keywords": [],
+  "author": "uzcateguijesusdev <[uzcateguijesusdev@gmail.com](mailto:uzcateguijesusdev@gmail.com)>",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
