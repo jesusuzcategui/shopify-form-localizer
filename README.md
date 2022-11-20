@@ -6,7 +6,7 @@ This package allows you to use a selector of available languages ​​for your 
 ## Usage
 1. First install package:
 ```bash
-npm i --save @uzcateguijesusdev/form-localizer
+npm i --save form-localizer
 ```
 2. Render snippet where you want, for example header:
 ```liquid
