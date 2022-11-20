@@ -12,7 +12,14 @@ npm i --save @uzcateguijesusdev/form-localizer
 ```liquid
 {% render "form-localizer" %}
 ```
-3. If you follow the steps, automatilly you can test the select language.
+3. Init javascript to registre the webcomponent.
+```javascript
+//Import main functionality
+import { initializeFormLocalizer } from 'form-localizer';
+//Execute code.
+initializeFormLocalizer()
+```
+4. If you follow the steps, automatilly you can test the select language.
 
 ## Suggestions
 If you want change style, you should set styles on the css package.
